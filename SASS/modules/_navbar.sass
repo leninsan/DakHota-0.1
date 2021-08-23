@@ -1,0 +1,31 @@
+.nav-link.rightSide1
+    position: absolute
+    right: 10px
+.nav-link.rightSide2
+    position: absolute
+    right: 80px
+
+.navbar.navbarStyle
+    padding: 0
+    margin: 0
+    .container-fluid
+        background-color: $bgColorNavbar
+        a
+            height: 3rem
+            font-weight: bolder
+            color: $colorDetails
+            &:hover
+                color: black
+                background-color: $bgColorNavbarHover
+
+@media screen and (max-width:990px)
+    .nav-link.navHome
+        position: absolute
+        left: 6rem
+        top: 1px
+    .nav-link.rightSide1
+        position: relative
+        left: 0
+    .nav-link.rightSide2
+        position: relative
+        left: 0

@@ -1,0 +1,40 @@
+body.bodyHome {
+  margin: 0;
+  padding: 0; }
+
+.nav-link.rightSide1 {
+  position: absolute;
+  right: 10px; }
+
+.nav-link.rightSide2 {
+  position: absolute;
+  right: 80px; }
+
+.navbar.navbarStyle {
+  padding: 0;
+  margin: 0; }
+  .navbar.navbarStyle .container-fluid {
+    background-color: #6e9b5f; }
+    .navbar.navbarStyle .container-fluid a {
+      height: 3rem;
+      font-weight: bolder;
+      color: #cd853f; }
+      .navbar.navbarStyle .container-fluid a:hover {
+        color: black;
+        background-color: #537547; }
+
+@media screen and (max-width: 990px) {
+  .nav-link.navHome {
+    position: absolute;
+    left: 6rem;
+    top: 1px; }
+
+  .nav-link.rightSide1 {
+    position: relative;
+    left: 0; }
+
+  .nav-link.rightSide2 {
+    position: relative;
+    left: 0; } }
+
+/*# sourceMappingURL=styles.css.map */
